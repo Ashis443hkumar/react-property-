@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import Scroll from '../scroll/Scroll'
 
 export default function Footer() {
   return (
@@ -115,7 +116,8 @@ export default function Footer() {
           </span>
         </div>
       </div>
-      ;
+      
+      <Scroll/>
     </>
   );
 }
